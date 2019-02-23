@@ -1,0 +1,17 @@
+# Apache config
+<FilesMatch ".(eot|ttf|otf|woff|json)">
+	Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
+
+
+#protected area
+
+RewriteEngine On
+RewriteBase /
+
+# allow these referers to passthrough
+RewriteCond %{HTTP_REFERER} ^https?://([a-z0-9]+[.])*margonem[.]pl
+RewriteRule ^ - [L]
+
+# redirect everything else
+RewriteRule ^ http://www.margonem.pl [R,L]
