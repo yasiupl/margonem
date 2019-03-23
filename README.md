@@ -8,6 +8,6 @@ Dodatki do najlepszej polskiej gry przeglądarkowej MMORPG Margonem stworzonych 
 
 ![klan](https://raw.githubusercontent.com/yasiupl/margonem/master/klan/mapki/proporczyk%20klanu.png)
 
-```klan``` - Dodatek Klanowy. Seria skryptów umożliwiająca modyfikowanie map, dodwanie NPC i dialogów. Zainspirowane przez [@birguna](https://github.com/bitguna) prawie dekadę temu.
+```klan``` - Dodatek Klanowy. Seria skryptów umożliwiająca modyfikowanie map, dodwanie NPC i dialogów. Zainspirowane przez [@bitguna](https://github.com/bitguna) prawie dekadę temu.
 
 
